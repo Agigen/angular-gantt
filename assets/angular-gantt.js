@@ -3453,7 +3453,7 @@ Github: https://github.com/angular-gantt/angular-gantt
                 }
 
                 if ($scope.maxHeight > 0) {
-                    css['max-height'] = $scope.maxHeight - $scope.gantt.header.getHeight() + 'px';
+                    css['max-height'] = $scope.maxHeight - 48;// - $scope.gantt.header.getHeight() + 'px';
                     css['overflow-y'] = 'auto';
                 } else {
                     css['overflow-y'] = 'hidden';
