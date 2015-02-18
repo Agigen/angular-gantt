@@ -3392,6 +3392,7 @@ Github: https://github.com/angular-gantt/angular-gantt
             $scope.gantt.scroll.$element = $element;
 
             var scrollBarWidth = layout.getScrollBarWidth();
+            $scope.gantt.scroll.scrollBarWidth = scrollBarWidth;
             var lastScrollLeft;
 
             var lastAutoExpand;
