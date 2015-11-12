@@ -6,6 +6,7 @@
   "contributors": [
     "Rémi Alvergnat <toilal.dev@gmail.com> (http://www.pragmasphere.com)"
   ],
+  "main": "assets/angular-gantt.js",
   "license": "MIT",
   "repository": {
     "type": "git",
